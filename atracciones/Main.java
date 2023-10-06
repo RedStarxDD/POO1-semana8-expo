@@ -20,5 +20,6 @@ public class Main {
 		zoo.setAnimales(animales);
 		
 		System.out.println(zoo.toString());
+		zoo.calcularGanancias();
 	}
 }

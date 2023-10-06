@@ -32,6 +32,12 @@ public class Zoologico extends Atraccion{
 	}
 
 	@Override
+	public void calcularGanancias() {
+		// TODO Auto-generated method stub
+		System.out.println("Las ganancias totales se calcula multiplicando el número de visitantes por el costo de la entrada, sumado con...");
+	}
+	
+	@Override
 	public String toString() {
 		return "Zoologico [cantidadAnimales=" + cantidadAnimales + ", guardia=" + guardia + ", animales="
 				+ Arrays.toString(animales) + ", habitat=" + habitat + ", toString()=" + super.toString() + "]";

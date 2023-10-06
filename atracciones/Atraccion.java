@@ -1,6 +1,6 @@
 package atracciones;
 
-public class Atraccion {
+public abstract class Atraccion {
 	private String tipo, nombre, ruc;
 
 	public Atraccion(String tipo, String nombre, String ruc) {
@@ -9,6 +9,9 @@ public class Atraccion {
 		this.nombre = nombre;
 		this.ruc = ruc;
 	}
+	
+	//Abstracción
+	public abstract void calcularGanancias();
 
 	@Override
 	public String toString() {
