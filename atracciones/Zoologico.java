@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Herencia
 public class Zoologico extends Atraccion{
 	private int cantidadAnimales;
-	private Director guardia;
+	private Director director;
 	private Animal[] animales;
 	private Habitat habitat;
 
@@ -15,12 +15,12 @@ public class Zoologico extends Atraccion{
 		this.habitat = habitat;
 	}
 
-	public Director getGuardia() {
-		return guardia;
+	public Director getDirector() {
+		return director;
 	}
 
-	public void setGuardia(Director guardia) {
-		this.guardia = guardia;
+	public void setDirector(Director director) {
+		this.director = director;
 	}
 
 	public Animal[] getAnimales() {
@@ -39,7 +39,7 @@ public class Zoologico extends Atraccion{
 	
 	@Override
 	public String toString() {
-		return "Zoologico [cantidadAnimales=" + cantidadAnimales + ", guardia=" + guardia + ", animales="
+		return "Zoologico [cantidadAnimales=" + cantidadAnimales + ", director=" + director + ", animales="
 				+ Arrays.toString(animales) + ", habitat=" + habitat + ", toString()=" + super.toString() + "]";
 	}
 	

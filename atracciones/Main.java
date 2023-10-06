@@ -11,7 +11,7 @@ public class Main {
 		
 		//Asociación
 		Director dir=new Director("Pedro", "Castillo", true);
-		zoo.setGuardia(dir);
+		zoo.setDirector(dir);
 		
 		//Agregación
 		Animal panda=new Animal("Panda", "Ursidae", 4);
